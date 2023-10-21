@@ -10,7 +10,7 @@ function Home() {
   const [cart, setCart] = useState([]); 
   const [selectedItem, setSelectedItem] = useState(null); 
 
-  console.log('Hola')
+  console.log('Hola Mundo')
 
   useEffect(() => {
     axios.get('https://fakestoreapi.com/products')
